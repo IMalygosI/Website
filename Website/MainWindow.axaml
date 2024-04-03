@@ -1,0 +1,60 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="1920" d:DesignHeight="1010"
+        x:Class="Website.MainWindow"
+        Title="Website"
+        WindowStartupLocation="CenterScreen"
+		MinHeight="1010" MaxWidth="1920" MaxHeight="1010" MinWidth="1920">	
+	<Panel>
+		<StackPanel Margin="0 40 0 0" HorizontalAlignment="Center">
+			<Button Background="White">
+				<StackPanel Background="White">
+					<Image Source="C:\Users\prdb\source\repos\Website\image\Git1.jpg"						   
+						   Height="55" Width="55"></Image>
+				</StackPanel>
+			</Button>
+		</StackPanel>
+		<StackPanel Margin="0 140 0 0" HorizontalAlignment="Center">
+			<TextBlock FontSize="23">
+				Sign in to GitHub
+			</TextBlock>
+		</StackPanel>		
+		<StackPanel Background="#f6f8fa" Height="215" Width="300" HorizontalAlignment="Center"
+					Margin="0 0 0 410">
+			
+			<TextBlock Margin="10 15 0 0" FontSize="14">Username or email address</TextBlock>
+			
+			<TextBox Background="White" Height="30" Width="280" CornerRadius="6" Margin="0 10 0 0"></TextBox>
+			
+			<TextBlock Margin="10 20 0 0" FontSize="14">Password</TextBlock>
+			
+			<TextBox Background="White" Height="30" Width="280" CornerRadius="6" Margin="0 10 0 0"></TextBox>
+			
+			<Button Foreground="White" Background="Green" Height="30" Width="280"
+					Margin="0 15 0 0" HorizontalAlignment="Center" CornerRadius="6">
+				<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" >
+					Sign in
+				</TextBlock>
+			</Button>
+			<Button FontSize="12" Background="#f6f8fa" Foreground="Blue" Height="30" Width="136" HorizontalAlignment="Center" Margin="160 -190 0 0">
+				<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">
+					Forgot password?
+				</TextBlock>				
+			</Button>
+		</StackPanel>				
+		<StackPanel Background="#f6f8fa" Height="80" Width="300" HorizontalAlignment="Center"
+					Margin="0 -60 0 0">
+			<Button Background="#f6f8fa" Margin="0 10 0 0" FontSize="14" HorizontalAlignment="Center"  Foreground="Blue">
+				Sign in with a passkey?
+			</Button>			
+			<TextBlock Margin="0 10 130 0" HorizontalAlignment="Center"  FontSize="14">
+				New to GitHub?
+			</TextBlock>			
+			<Button Margin="109 -23 0 0" HorizontalAlignment="Center" FontSize="14" Height="30" Width="136" Background="#f6f8fa" Foreground="Blue">
+				Create an account
+			</Button>			
+		</StackPanel>		
+	</Panel>
+</Window>
